@@ -5,7 +5,7 @@ using namespace std;
 int isPalindrome(string x){
 int l=x.length(),i=0,j=1;
 if (l==1) return 1;
-for (i;i<(l/2);i++,j++){
+for (i=0;i<(l/2);i++,j++){
     if(x[i]==x[l-j]){
       return 1;
     }

@@ -16,6 +16,7 @@ y=z;
 }
 return z;
 }
+return 0;
 }
 int main (){
 long n,r;
